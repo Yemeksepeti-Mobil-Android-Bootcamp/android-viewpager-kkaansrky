@@ -16,7 +16,6 @@ class OnboardingAdapter(requireActivity: FragmentActivity) : FragmentStateAdapte
             0 -> FirstPageFragment()
             1 -> SecondPageFragment()
             2 -> ThirdPageFragment()
-            //else -> ErrorPageFragment()
             else -> FirstPageFragment()
         }
     }
