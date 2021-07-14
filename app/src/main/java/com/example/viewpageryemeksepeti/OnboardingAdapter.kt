@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-private val FRAGMENT_COUNT = 3
+private const val FRAGMENT_COUNT = 3
 
 class OnboardingAdapter(requireActivity: FragmentActivity) : FragmentStateAdapter(requireActivity) {
 

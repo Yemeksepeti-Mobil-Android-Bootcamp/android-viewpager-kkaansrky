@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.bumptech.glide.Glide
 import com.example.viewpageryemeksepeti.databinding.FragmentSecondPageBinding
 
 
@@ -18,7 +17,7 @@ class SecondPageFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentSecondPageBinding.inflate(inflater, container, false)
         val view = binding.root
 

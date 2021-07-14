@@ -16,7 +16,7 @@ class ThirdPageFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentThirdPageBinding.inflate(inflater, container, false)
         val view = binding.root
 

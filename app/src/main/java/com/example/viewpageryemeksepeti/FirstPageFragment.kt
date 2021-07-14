@@ -18,7 +18,7 @@ class FirstPageFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentFirstPageBinding.inflate(inflater, container, false)
         val view = binding.root
 
