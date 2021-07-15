@@ -5,5 +5,5 @@
 - Navigation, ViewPager2, DotsIndicator and Lottie used to develop this app.
 
 <div>
-<img src=https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-viewpager-kkaansrky/blob/main/SS/screenrecord.gif  width="383" height="800"/>                                                                                                           
+<img src=https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-viewpager-kkaansrky/blob/main/SS/screenrecord.gif  width="255" height="533"/>                                                                                                           
 </div>
