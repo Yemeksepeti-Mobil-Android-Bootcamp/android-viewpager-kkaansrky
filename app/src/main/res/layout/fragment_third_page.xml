@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdPageFragment">
+    tools:context=".OnboradingFragments.ThirdPageFragment"
+    android:background="@color/green">
 
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:src="@drawable/ic_deliverybro"/>
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delivered"
+        android:layout_below="@+id/imageView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

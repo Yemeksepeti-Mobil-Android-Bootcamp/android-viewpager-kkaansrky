@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    tools:context=".OnBoardingFragment">
+    android:padding="20dp"
+    android:background="@color/green"
+    tools:context=".Onboarding.OnBoardingFragment">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager2"
@@ -17,12 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:dotsColor="@color/purple_700"
+        app:dotsColor="@color/orange"
         app:dotsCornerRadius="8dp"
         android:layout_margin="20dp"
         app:dotsSize="16dp"
         app:dotsSpacing="4dp"
-        app:dotsStrokeColor="@color/black"
+        app:dotsStrokeColor="@color/purple"
         app:dotsStrokeWidth="2dp" />
 
     <androidx.cardview.widget.CardView
@@ -30,7 +31,7 @@
         android:layout_width="100dp"
         android:layout_margin="10dp"
         android:layout_height="50dp"
-        app:cardBackgroundColor="@color/purple_500"
+        app:cardBackgroundColor="@color/orange"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true">
 

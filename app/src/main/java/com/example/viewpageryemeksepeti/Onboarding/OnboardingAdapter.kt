@@ -1,8 +1,11 @@
-package com.example.viewpageryemeksepeti
+package com.example.viewpageryemeksepeti.Onboarding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.viewpageryemeksepeti.OnboradingFragments.FirstPageFragment
+import com.example.viewpageryemeksepeti.OnboradingFragments.SecondPageFragment
+import com.example.viewpageryemeksepeti.OnboradingFragments.ThirdPageFragment
 
 private const val FRAGMENT_COUNT = 3
 

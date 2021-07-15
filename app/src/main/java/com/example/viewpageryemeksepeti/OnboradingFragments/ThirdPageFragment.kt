@@ -1,16 +1,14 @@
-package com.example.viewpageryemeksepeti
+package com.example.viewpageryemeksepeti.OnboradingFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.viewpageryemeksepeti.databinding.FragmentFirstPageBinding
+import com.example.viewpageryemeksepeti.databinding.FragmentThirdPageBinding
 
-
-
-class FirstPageFragment : Fragment() {
-    private var _binding: FragmentFirstPageBinding? = null
+class ThirdPageFragment : Fragment() {
+    private var _binding: FragmentThirdPageBinding? = null
 
     private val binding get() = _binding!!
 
@@ -19,7 +17,7 @@ class FirstPageFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentFirstPageBinding.inflate(inflater, container, false)
+        _binding = FragmentThirdPageBinding.inflate(inflater, container, false)
         val view = binding.root
 
         mainFunc()

@@ -1,4 +1,4 @@
-package com.example.viewpageryemeksepeti
+package com.example.viewpageryemeksepeti.Splash
 
 import android.animation.Animator
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.viewpageryemeksepeti.R
 import com.example.viewpageryemeksepeti.databinding.FragmentSplashBinding
 
 

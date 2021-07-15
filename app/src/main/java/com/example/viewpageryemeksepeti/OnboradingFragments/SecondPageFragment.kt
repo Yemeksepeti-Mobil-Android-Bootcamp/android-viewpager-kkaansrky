@@ -1,4 +1,4 @@
-package com.example.viewpageryemeksepeti
+package com.example.viewpageryemeksepeti.OnboradingFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
